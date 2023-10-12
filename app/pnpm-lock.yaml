@@ -8,6 +8,9 @@ dependencies:
   '@nuxtjs/sitemap':
     specifier: ^2.4.0
     version: 2.4.0
+  '@nuxtjs/storybook':
+    specifier: 7.0.0
+    version: 7.0.0(nuxt@3.7.4)(vite@4.4.11)
   nuxt:
     specifier: ^3.7.4
     version: 3.7.4(@types/node@18.18.4)
@@ -31,9 +34,6 @@ devDependencies:
   '@nuxt/devtools':
     specifier: latest
     version: 1.0.0-beta.1(nuxt@3.7.4)(vite@4.4.11)
-  '@nuxtjs/storybook':
-    specifier: 7.0.0
-    version: 7.0.0(nuxt@3.7.4)(vite@4.4.11)
   '@storybook-vue/nuxt':
     specifier: 0.1.7
     version: 0.1.7(@types/node@18.18.4)(@vue/compiler-core@3.3.4)(nuxt@3.7.4)(react-dom@18.2.0)(react@18.2.0)(vite@4.4.11)(vue@3.3.4)
@@ -2272,7 +2272,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/devtools-wizard@1.0.0-beta.1:
     resolution: {integrity: sha512-xq8unTHjroV0siLMaJZ3HHdv+VukzRWnhu5XW7UqR/r4wBbvHBSrOFl9PpHRS/Mo4qJCPyOcZkOKCedr80jHew==}
@@ -2409,7 +2408,7 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
+    dev: false
 
   /@nuxt/kit@3.7.4:
     resolution: {integrity: sha512-/S5abZL62BITCvC/TY3KWA6N721U1Osln3cQdBb56XHIeafZCBVqTi92Xb0o7ovl72mMRhrKwRu7elzvz9oT/g==}
@@ -2472,7 +2471,7 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
+    dev: false
 
   /@nuxt/schema@3.7.4:
     resolution: {integrity: sha512-q6js+97vDha4Fa2x2kDVEuokJr+CGIh1TY2wZp2PLZ7NhG3XEeib7x9Hq8XE8B6pD0GKBRy3eRPPOY69gekBCw==}
@@ -2672,7 +2671,7 @@ packages:
       - rollup
       - supports-color
       - vite
-    dev: true
+    dev: false
 
   /@parcel/watcher-android-arm64@2.3.0:
     resolution: {integrity: sha512-f4o9eA3dgk0XRT3XhB0UWpWpLnKgrh1IwNJKJ7UJek7eTYccQ8LR7XUWFKqw6aEq5KUNlCcGvSzKqSX/vtWVVA==}
@@ -6493,7 +6492,6 @@ packages:
       onetime: 6.0.0
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
-    dev: true
 
   /execa@8.0.1:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
@@ -7151,7 +7149,6 @@ packages:
   /human-signals@4.3.1:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
     engines: {node: '>=14.18.0'}
-    dev: true
 
   /human-signals@5.0.0:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
