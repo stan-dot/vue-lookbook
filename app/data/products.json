@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Dress",
+    "description": "A description of the elegant dress.",
+    "price": 350,
+    "image": "path-to-your-image.jpg",
+    "slug": "elegant-dress"
+  },
+  {
+    "id": 2,
+    "name": "Luxury Suit",
+    "description": "A description of the luxury suit.",
+    "price": 750,
+    "image": "path-to-another-image.jpg",
+    "slug": "luxury-suit"
+  }
+]
