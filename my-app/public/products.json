@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Evening Pantsuit",
-    "description": "Rose gold pantsuit.",
+    "description": "Lustrous rose gold allure.",
     "price": 750,
     "category": "women",
     "stars": 4.5,
@@ -136,7 +136,7 @@
     "name": "Classic Man's Suit",
     "description": "Timeless sophistication.",
     "price": 1250,
-    "category": "women",
+    "category": "men",
     "stars": 5,
     "image": "/images/13-classic-man-suit.jpg",
     "slug": "classic-mans-suit",

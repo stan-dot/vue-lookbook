@@ -5,7 +5,7 @@
     <p class="product-description">{{ this.description }}</p>
     <p class="product-price">£{{ this.price }}</p>
     <div class="product-stars">{{ displayStars }}</div>
-    <nuxt-link :to="detailsLink" class="cta-button">See details</nuxt-link>
+    <NuxtLink :to="detailsLink" class="cta-button">See details</NuxtLink>
     <!-- <button class="add-to-bag-btn">Add To Bag</button> -->
   </div>
 </template>
@@ -15,7 +15,7 @@ import Zoomer from "./Zoomer.vue";
 export default {
   name: 'ProductCard',
   props: {
-    id: { type: String },
+    id: { type: Number },
     name: { type: String },
     description: { type: String },
     price: { type: Number },
@@ -46,7 +46,12 @@ export default {
 <style scoped>
 .product-card {
   /* opacity: 0.58; */
-  padding: 16px 8px;
+  min-width: 80%;
+  width: fit-content;
+  background-color: rgb(249, 247, 242);
+  opacity: 1 !important;
+  padding: 16px 8px 4px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
   /* display: flex;
   flex-direction: column;
   flex: start; */
@@ -59,7 +64,7 @@ export default {
 
 
 .product-title {
-  color: #1e1e1e;
+  color: #333;
   margin-top: 16px;
 }
 
@@ -75,5 +80,9 @@ div>p {
   div>p {
     position: relative;
   }
+}
+
+.cta-button {
+  text-decoration: none;
 }
 </style>

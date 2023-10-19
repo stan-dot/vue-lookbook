@@ -21,5 +21,6 @@ export default {
 <style>
 .main {
   font-family: 'raleway-dots', sans-serif;
+  height: auto;
 }
 </style>

@@ -5,6 +5,11 @@
       <img src="/icon.svg" alt="Lookbook icon" />
     </NuxtLink>
     <ul class="navbar-list">
+      <li>
+        <NuxtLink :to="`/products`" class="navbar-item">
+          all
+        </NuxtLink>
+      </li>
       <li v-for="id in categories" :key="id">
         <NuxtLink :to="`/category/${id}`" class="navbar-item">
           {{ id }}
@@ -46,7 +51,6 @@ nav {
 .navbar-item {
   text-decoration: none;
   color: #333;
-  /* Change as needed */
   padding: 3px;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -54,5 +58,12 @@ nav {
 
 .navbar-item:hover {
   background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 </style>

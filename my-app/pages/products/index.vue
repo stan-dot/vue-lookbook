@@ -1,24 +1,8 @@
 <template>
-  <div>
+  <div id="main-colection-container">
     <h2>Discover Elegance: Our Curated Collection Awaits</h2>
-    <Swiper :modules="[SwiperAutoplay, SwiperEffectCreative]" :slides-per-view="1" :loop="true" :effect="'creative'"
-      :autoplay="{
-        delay: 8000,
-        disableOnInteraction: true,
-      }" :creative-effect="{
-  prev: {
-    shadow: false,
-    translate: ['-20%', 0, -1],
-  },
-  next: {
-    translate: ['100%', 0, 0],
-  },
-}">
-      <SwiperSlide v-for="slide in 10" :key="slide">
-        <strong>{{ slide }}</strong>
-      </SwiperSlide>
-    </Swiper>
-    <pre v-if="products" class="carousel-container">
+    <p>Swipe to browse!</p>
+    <pre v-if="products">
       <Swiper :modules="[SwiperAutoplay, SwiperEffectCreative]" :slides-per-view="3" :loop="true" :effect="'creative'"
         :autoplay="{
           delay: 8000,
@@ -30,14 +14,12 @@
             translate: ['-20%', 0, -1],
           },
           next: {
-            translate: ['100%', 0, 0],
+            translate: ['120%', 0, 0],
           },
         }"
         >
-        <SwiperSlide v-for="product in products" :key="product.id">
+        <SwiperSlide v-for="product in products" :key="(product.id.toString())">
           <ProductCard  
-          class="carousel-image"
-          :key="product.id" 
           :id="product.id" 
           :name="product.name" 
           :price="product.price" 
@@ -66,6 +48,7 @@ export default {
       // Fetch the content of the JSON file from the static directory
       const response = await fetch('/products.json');
       const data = await response.json();
+      console.log('data', data);
       this.products = data;
 
       // Convert the JSON object to a string and store in the products data property
@@ -87,4 +70,5 @@ h2 {
   align-items: center;
   text-align: center;
 }
+
 </style>

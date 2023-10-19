@@ -1,7 +1,7 @@
 <template>
   <div class="zoom-container">
-    <!-- <img :src="this.link" alt="Product Image" class="zoom-image" height="560" width="420" /> -->
-    <img :src="this.link" alt="Product Image" class="zoom-image" height="auto" width="auto" />
+    <img :src="this.link" alt="Product Image" class="zoom-image" height="560" width="420" />
+    <!-- <img :src="this.link" alt="Product Image" class="zoom-image" height="auto" width="auto" /> -->
   </div>
 </template>
 
@@ -23,9 +23,6 @@ export default {
 .zoom-container {
   position: relative;
   overflow: hidden;
-  width: 300px;
-  /* Or any desired size */
-  height: 300px;
 }
 
 .zoom-image {
