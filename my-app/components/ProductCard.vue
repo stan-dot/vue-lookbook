@@ -1,6 +1,6 @@
 <template>
   <div class="product-card">
-    <img :src="this.image" alt="Product Image" class="product-image" height="130" width="60" />
+    <Zoomer :link="this.image"/>
     <h2 class="product-title">{{ this.name }}</h2>
     <p class="product-description">{{ this.description }}</p>
     <p class="product-price">${{ this.price }}</p>
@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import Zoomer from "./Zoomer.vue";
 export default {
   name: 'ProductCard',
   props: {

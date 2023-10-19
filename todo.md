@@ -1,7 +1,7 @@
 
 - [ ] high quality images
 - [ ] zoom in functionality
-- [ ] carousel / slider
+- [x] carousel / slider
 
 information
 - name
@@ -15,8 +15,7 @@ inquire button
 - [ ] responsive
 - [ ] subtle animations
 - [ ] smooth transitons
-
-- [ ] add stars
+- [x] add stars
 - [ ] add responsive styles
 
 ## steps
