@@ -1,48 +1,132 @@
 [
   {
     "id": 1,
-    "name": "Elegant Dress",
-    "description": "A description of the elegant dress.",
-    "price": 350,
-    "stars":1,
-    "image": "/images/yellow-dress.jpg",
-    "slug": "elegant-dress",
-    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque varius sem, in bibendum lectus hendrerit nec. Pellentesque suscipit massa id felis cursus dapibus. Suspendisse eget porta diam. Fusce vel purus quis est ultrices sodales ut vitae ligula. Mauris scelerisque malesuada mi luctus vehicula. Sed fringilla id risus sit amet bibendum. Curabitur eleifend velit ac pulvinar sodales. Aliquam nec arcu varius, tristique diam vel, eleifend urna. Pellentesque ut erat felis. Nulla tempus turpis a arcu dictum, sed cursus purus facilisis.  "
+    "name": "Elegant Satin Gown",
+    "description": "Flowing elegance in satin.",
+    "price": 1200,
+    "stars": 5,
+    "image": "/images/1-elegant-satin-gown.jpg",
+    "slug": "elegant-satin-gown",
+    "longDescription": "Step into a room and have all eyes on you. This gown guarantees a transformation into an embodiment of grace and sophistication. Glide effortlessly with every step, feeling like the epitome of elegance."
   },
   {
     "id": 2,
-    "name": "Luxury Suit",
-    "description": "A description of the luxury suit.",
+    "name": "Evening Pantsuit",
+    "description": "Rose gold pantsuit.",
     "price": 750,
-    "image": "https://image.lexica.art/full_jpg/015fb3db-d837-4c46-a8bb-af79606e9b5a",
-    "slug": "luxury-suit",
-    "longDescription": "Quisque venenatis varius metus, nec semper augue tempor in. Morbi laoreet eros a eleifend mattis. Quisque suscipit sem mi, in accumsan eros venenatis vel. Sed ultricies rutrum erat, vel pulvinar nulla vulputate in. Sed odio nisl, hendrerit vitae consectetur et, porttitor ac metus. Nullam eget dolor tellus. Nam gravida ligula sed augue lacinia aliquet. Ut vulputate ornare malesuada.  "
+    "stars": 4.5,
+    "image": "/images/2-evening-pantsuit.jpg",
+    "slug": "evening-pantsuit",
+    "longDescription": "Exude confidence and power. This rose gold pantsuit isn’t just an outfit; it’s an attitude. Make a statement in any professional or evening setting, owning every conversation and engagement."
+  },
+  {
+    "id": 3,
+    "name": "Boho Chic Dress",
+    "description": "Free-spirit and style.",
+    "price": 650,
+    "stars": 4.8,
+    "image": "/images/3-boho-chic-dress.jpg",
+    "slug": "boho-chic-dress",
+    "longDescription": "Express your free spirit while staying in vogue. This dress breathes life, fun, and spontaneity into your day, making every moment feel like a sun-kissed adventure."
   },
   {
     "id": 4,
-    "name": "Some",
-    "description": "lorem short",
-    "price": 500,
-    "image": "/images/suit.jpg",
-    "slug": "suit",
-    "longDescription": "Suspendisse varius at arcu ultrices mollis. Integer aliquet tristique nisi et efficitur. Nunc ultricies consequat rutrum. Vestibulum sit amet molestie justo. Integer dictum mauris lectus, eget finibus lectus dignissim quis. Cras consequat lorem felis, vitae interdum mauris pretium quis. Morbi eget posuere tellus. Nullam sit amet nibh sapien. Aliquam tristique convallis turpis. Curabitur tempus elit quis tortor posuere interdum. In a fringilla orci. Integer ut aliquam nulla. Duis auctor, arcu id elementum volutpat, lectus neque malesuada velit, vel venenatis ligula ex vitae augue. Etiam nisi turpis, finibus ut elementum sit amet, mollis quis nulla."
+    "name": "Sequin Party Dress",
+    "description": "Dazzling allure for the night.",
+    "price": 890,
+    "stars": 5,
+    "image": "/images/4-sequin-dress-party.jpg",
+    "slug": "sequin-party-dress",
+    "longDescription": "Let your inner star shine bright. With this dress, every night feels like an exclusive party, ensuring you are the dazzling center of attention."
   },
   {
     "id": 5,
-    "name": "Some",
-    "description": "lorem short",
-    "price": 500,
-    "image": "/images/suit.jpg",
-    "slug": "suit",
-    "longDescription": "Vestibulum sagittis lorem orci, nec dapibus enim lobortis feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vel egestas enim, nec mollis est. Phasellus vulputate vulputate quam, sed pharetra neque lobortis vel. Donec porta quis lectus vel ullamcorper. Nunc hendrerit lorem risus, vel laoreet nulla semper posuere. Fusce lacinia ornare neque, venenatis posuere risus tincidunt in. Phasellus vel pharetra libero. Aliquam efficitur, eros rutrum tincidunt lacinia, sem justo mattis nulla, eget euismod neque est sit amet felis."
+    "name": "Elegant Linen Summer",
+    "description": "Breeze through summer elegantly.",
+    "price": 700,
+    "stars": 4.7,
+    "image": "/images/5-elegant-linen-summer.jpg",
+    "slug": "elegant-linen-summer",
+    "longDescription": "Stay chic, cool, and comfortable. This outfit brings a fresh breath of air to those warm summer days, allowing you to enjoy every sunlit moment with a touch of grace."
   },
   {
     "id": 6,
-    "name": "Some",
-    "description": "lorem short",
-    "price": 500,
-    "image": "/images/suit.jpg",
-    "slug": "suit",
-    "longDescription": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacus lectus, condimentum nec justo porttitor, pharetra rhoncus quam. Etiam et cursus neque. Phasellus accumsan, dui vitae lacinia rutrum, magna ipsum tempor nulla, et pellentesque ligula est accumsan urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum suscipit justo ante. Nulla id libero vitae velit porta sagittis ac condimentum felis. Maecenas convallis turpis nec eros sodales efficitur. Sed feugiat libero id massa varius ullamcorper. Quisque aliquam magna a sagittis egestas. Quisque bibendum dolor sed egestas tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur posuere pharetra felis tempor vestibulum. Maecenas nunc felis, gravida sed iaculis sed, fermentum et ligula."
+    "name": "Man's Tuxedo",
+    "description": "Classic elegance for men.",
+    "price": 1300,
+    "stars": 5,
+    "image": "/images/6-tuxedo-man.jpg",
+    "slug": "mans-tuxedo",
+    "longDescription": "Elevate any occasion. This tuxedo gives a distinguished look that speaks volumes of taste, ensuring you leave a lasting impression."
+  },
+  {
+    "id": 7,
+    "name": "Winter Jacket for Men",
+    "description": "Warm sophistication for cold days.",
+    "price": 1100,
+    "stars": 4.9,
+    "image": "/images/7-man-winter-jacket.jpg",
+    "slug": "winter-jacket-men",
+    "longDescription": "Brave the cold in style. This jacket not only keeps you warm but also ensures you look dapper, turning winter days into stylish adventures."
+  },
+  {
+    "id": 8,
+    "name": "Non-Binary Business Look",
+    "description": "Bold and transcendent.",
+    "price": 780,
+    "stars": 5,
+    "image": "/images/8-nonbinary-businessperson.jpg",
+    "slug": "nonbinary-business-look",
+    "longDescription": "Challenge norms and expectations. This outfit speaks to those who aren’t defined by traditional binaries, offering a look that’s both professional and authentically unique."
+  },
+  {
+    "id": 9,
+    "name": "Punk Vest",
+    "description": "Rebel with a cause.",
+    "price": 420,
+    "stars": 4.6,
+    "image": "/images/9-punk-vest.jpg",
+    "slug": "punk-vest",
+    "longDescription": "Embrace your edgy side. This vest is for those who dare to be different, ensuring every day feels like a rock concert."
+  },
+  {
+    "id": 10,
+    "name": "Cyberpunk Jacket",
+    "description": "Future-fashion today.",
+    "price": 950,
+    "stars": 4.8,
+    "image": "/images/10-cyberpunk-jacket-person.jpg",
+    "slug": "cyberpunk-jacket",
+    "longDescription": "Step into the future. This jacket encapsulates the essence of cyberpunk aesthetics, making you feel like you’re walking in a futuristic metropolis."
+  },
+  {
+    "id": 11,
+    "name": "White Suit for Men",
+    "description": "Crisp and clean charisma.",
+    "price": 1150,
+    "stars": 5,
+    "image": "/images/11-white-suit-man.jpg",
+    "slug": "white-suit-men",
+    "longDescription": "Epitomize poise and panache. This white suit is for those moments when making a statement is essential. Radiate charm and confidence with every stride."
+  },
+  {
+    "id": 12,
+    "name": "Yellow Dress",
+    "description": "Sunny vibes all day.",
+    "price": 680,
+    "stars": 4.7,
+    "image": "/images/12-yellow-dress-girl.jpg",
+    "slug": "yellow-dress",
+    "longDescription": "Brighten up any room you walk into. This dress ensures every day feels as vibrant and lively as a sunlit afternoon."
+  },
+  {
+    "id": 13,
+    "name": "Classic Man's Suit",
+    "description": "Timeless sophistication.",
+    "price": 1250,
+    "stars": 5,
+    "image": "/images/13-classic-man-suit.jpg",
+    "slug": "classic-mans-suit",
+    "longDescription": "Dress for success. This suit is a testament to timeless fashion, ensuring you are always dressed to impress, no matter the occasion."
   }
 ]

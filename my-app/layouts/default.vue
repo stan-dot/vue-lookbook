@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="main">
     <Navbar />
-    <NuxtPage/>
+    <NuxtPage />
     <Footer />
   </div>
 </template>
@@ -17,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.main {
+  font-family: 'raleway-dots', sans-serif;
+}
+</style>

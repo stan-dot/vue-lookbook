@@ -35,8 +35,8 @@ inquire button
    2. high quality images 
    3. refined typography - choose nice fonts - https://google-fonts.nuxtjs.org/getting-started/setup
    4. responsive and coherent
-   5. additional component
-   6. SEO optimization https://nuxt.com/docs/guide/directory-structure/public
+   5. SEO optimization https://nuxt.com/docs/guide/directory-structure/public
+   6. feedback form form standot33@gmail.com
 6. deploy
 7. documentation - automatic with storybook
 

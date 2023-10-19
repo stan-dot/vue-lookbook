@@ -1,9 +1,9 @@
 <template>
   <div class="product-card">
-    <Zoomer :link="this.image"/>
+    <Zoomer :link="this.image" />
     <h2 class="product-title">{{ this.name }}</h2>
     <p class="product-description">{{ this.description }}</p>
-    <p class="product-price">${{ this.price }}</p>
+    <p class="product-price">£{{ this.price }}</p>
     <div class="product-stars">{{ displayStars }}</div>
     <button class="add-to-bag-btn">Add To Bag</button>
   </div>
