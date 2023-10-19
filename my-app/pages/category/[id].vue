@@ -29,7 +29,6 @@ export default {
         const response = await fetch('/products.json');
         const data = await response.json();
         const filtered = data.filter(p => p.category === (this.id));
-        console.log('original: ', data, ' filtered: ', filtered);
         this.products = filtered;
       } catch (error) {
         console.error('Error fetching the products.json:', error);

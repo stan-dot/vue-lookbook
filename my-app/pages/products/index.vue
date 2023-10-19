@@ -48,7 +48,6 @@ export default {
       // Fetch the content of the JSON file from the static directory
       const response = await fetch('/products.json');
       const data = await response.json();
-      console.log('data', data);
       this.products = data;
     } catch (error) {
       console.error('Error fetching the products.json:', error);
