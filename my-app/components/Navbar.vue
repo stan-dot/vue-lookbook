@@ -1,8 +1,9 @@
 
 <template>
-  <nav>
+  <nav class="fits-mobile">
     <NuxtLink to="/">
-      <img src="/icon.svg" alt="Lookbook icon" />
+      <!-- <h1 alt="Lookbook title" id="logo">Nuxt Lookbook</h1> -->
+      <img src="/new-logo.png" alt="Lookbook icon" id="logo" />
     </NuxtLink>
     <ul class="navbar-list">
       <li>
@@ -30,9 +31,25 @@ export default {
 </script>
 
 <style scoped>
+#logo {
+  font-family: 'Josefin+Sans', 'lato';
+  text-decoration: none;
+  text-underline-position: unset;
+}
+
+@media (max-width: 720px) {
+  .fits-mobile {
+    padding: 0;
+    width: 80vw;
+  }
+
+}
+
 nav {
   border-bottom: 2px solid #333;
   width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
 }

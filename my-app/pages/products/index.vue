@@ -50,9 +50,6 @@ export default {
       const data = await response.json();
       console.log('data', data);
       this.products = data;
-
-      // Convert the JSON object to a string and store in the products data property
-      // this.products = JSON.stringify(data, null, 2); // The parameters null and 2 are used to format the JSON with 2-space indentation
     } catch (error) {
       console.error('Error fetching the products.json:', error);
     }
@@ -70,5 +67,4 @@ h2 {
   align-items: center;
   text-align: center;
 }
-
 </style>

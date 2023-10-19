@@ -1,7 +1,5 @@
 <template>
-  <footer>
-
-
+  <footer class="fits-mobile">
     <nav class="footer">
       <p>
         <NuxtLink to='https://stan.place'>Main portfolio</NuxtLink>
@@ -23,10 +21,20 @@
 </template>
 
 <style scoped>
+@media (max-width: 720px) {
+  .fits-mobile {
+    padding: 0;
+    width: 80vw;
+  }
+
+}
+
 footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -56,6 +64,7 @@ a {
   .footer {
     width: 100%;
     flex-direction: column;
+    font-size: small;
   }
 }
 </style>
