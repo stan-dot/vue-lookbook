@@ -1,4 +1,3 @@
-// In your Vue component
 export default {
   head: {
     title: 'Luxury Lookbook',
