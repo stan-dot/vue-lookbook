@@ -1,5 +1,8 @@
 <template>
   <div class="product-detail">
+    <div v-if="!products || products.length === 0">
+      <p>No products here!</p>
+    </div>
     <div v-if="products && products.length > 0">
       <h4>{{ products.length }} products in category {{ id }}</h4>
       <ProductCard v-for="product in products" :key="product.id" :id="product.id" :name="product.name"
@@ -14,7 +17,7 @@ export default {
   data() {
     return {
       id: this.$route.params.id,
-      products: null
+      products: []
     };
   },
   mounted() {
@@ -25,8 +28,8 @@ export default {
       try {
         const response = await fetch('/products.json');
         const data = await response.json();
-        const filtered = data.filter(p => p.category === parseInt(this.id));
-        console.log(filtered);
+        const filtered = data.filter(p => p.category === (this.id));
+        console.log('original: ', data, ' filtered: ', filtered);
         this.products = filtered;
       } catch (error) {
         console.error('Error fetching the products.json:', error);

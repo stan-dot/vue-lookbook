@@ -34,19 +34,19 @@ export default {
       }
 
       return starsString;
+    },
+    detailsLink() {
+      return `/item/${this.id}`;
     }
   },
-  detailsLink() {
-    return `/items/${this.id}`;
-  }
 
 };
 </script>
 
 <style scoped>
 .product-card {
-  opacity: 0.58;
-  padding: 16px;
+  /* opacity: 0.58; */
+  padding: 16px 8px;
   /* display: flex;
   flex-direction: column;
   flex: start; */
