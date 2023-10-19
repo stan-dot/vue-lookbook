@@ -26,12 +26,17 @@ export default {
 
 <style scoped>
 nav {
+  border-bottom: 2px solid #333;
   width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar-list {
   list-style-type: none;
   padding: 0;
+  margin: 10px;
+  width: 40%;
   display: flex;
   justify-content: space-around;
   display: flex;

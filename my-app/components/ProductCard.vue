@@ -45,12 +45,11 @@ export default {
 
 <style scoped>
 .product-card {
-  /* background-color: rgb(50, 50, 50); */
   opacity: 0.58;
   padding: 16px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  flex: start;
+  flex: start; */
 }
 
 .productdescription {
@@ -69,7 +68,7 @@ export default {
 }
 
 div>p {
-  padding: 10px;
+  padding: 4px;
 }
 
 @media (max-width: 768px) {

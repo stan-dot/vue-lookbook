@@ -1,11 +1,3 @@
-information
-- name
-- description
-- price
-- sizes
-- materials used - DISCARDED
-
-inquire button
 
 - [x] high quality images
 - [x] zoom in functionality
@@ -13,6 +5,7 @@ inquire button
 - [x] branding colors
 - [x] add stars
 - [x] subtle animations
+- [ ] inquire button
 - [ ] smooth transitons
 - [ ] responsive styles
 
@@ -29,14 +22,11 @@ inquire button
    2. product detail
 4. client side routing to display the raw components - using swiper component
 5. styling
-   1. specious layout - ok
+   1. spacious layout - ok
    2. high quality images  - ok
    3. refined typography - choose nice fonts - https://google-fonts.nuxtjs.org/getting-started/setup -ok
    4. responsive and coherent
    5. SEO optimization https://nuxt.com/docs/guide/directory-structure/public
-   6. feedback form form standot33@gmail.com 
-6. deploy
-7. documentation - automatic with storybook
-
-## disclaimer
-"This project is a demo application built to showcase development skills and is not associated, affiliated, or endorsed by [Brand Name]. All images and product details are used for demonstrative purposes only."
+   6. feedback form form standot33@gmail.com  - not necessary
+6. deploy - done
+7. documentation - automatic with storybook - not key part. relatively few state-changing elements though.

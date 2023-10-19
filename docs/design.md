@@ -24,3 +24,11 @@ add to bag
 title
 price 
 stars
+
+## data format
+information
+- name
+- description
+- price
+- sizes
+- materials used - DISCARDED

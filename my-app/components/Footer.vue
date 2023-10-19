@@ -3,11 +3,15 @@
     <p>
       <a href='https://stan.place'>Main portfolio</a>
     </p>
+    <p>
+      This project is a demo application built to showcase development skills and is not associated, affiliated, or
+      endorsed by any brand. All images and product details are used for demonstrative purposes only.
+    </p>
     <p>Newsletter</p>
     <p>Terms of use</p>
     <p>Privacy policy</p>
     <p>Copyright notice</p>
-    <p> Provide Feedback </p>
+    <p>Provide Feedback</p>
   </nav>
 </template>
 <style scoped>
