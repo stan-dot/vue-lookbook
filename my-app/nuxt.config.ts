@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/storybook', 'nuxt-swiper', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/storybook', 'nuxt-swiper', '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
      families: {
           Roboto: true,
@@ -19,4 +19,13 @@ export default defineNuxtConfig({
     storybookRoute: '/__storybook__',
     port: 6006,
   },
+  image: {
+    domains: [
+      'images.unsplash.com'
+    ],
+    alias: {
+      unsplash: 'https://images.unsplash.com'
+    }
+  }
 })
+

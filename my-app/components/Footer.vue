@@ -15,6 +15,9 @@
       <p>Privacy policy</p>
       <p>Copyright notice</p>
       <p>Provide Feedback</p>
+      <p>Images are from lexica.com</p>
+      <p>The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and
+        other contributors. The graphics are licensed under CC-BY 4.0. Favicon</p>
     </nav>
   </footer>
 </template>

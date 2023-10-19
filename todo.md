@@ -30,3 +30,5 @@
    6. feedback form form standot33@gmail.com  - not necessary
 6. deploy - done
 7. documentation - automatic with storybook - not key part. relatively few state-changing elements though.
+8. bug fixes
+   1. on mobile the slider doesn't work quite right

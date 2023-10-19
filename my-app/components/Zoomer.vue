@@ -1,12 +1,10 @@
 <template>
   <div class="zoom-container">
-    <img :src="this.link" alt="Product Image" class="zoom-image" height="560" width="420" />
-    <!-- <img :src="this.link" alt="Product Image" class="zoom-image" height="auto" width="auto" /> -->
+    <NuxtImg :src="this.link" alt="Product Image" class="zoom-image" height="560" width="420" />
   </div>
 </template>
 
 <script>
-import { reactive, computed } from 'vue';
 
 export default {
   name: 'zoomer',
