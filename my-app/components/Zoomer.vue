@@ -1,6 +1,7 @@
 <template>
   <div class="zoom-container">
-    <img :src="this.link" alt="Product Image" class="zoom-image" height="330" width="260" />
+    <!-- <img :src="this.link" alt="Product Image" class="zoom-image" height="560" width="420" /> -->
+    <img :src="this.link" alt="Product Image" class="zoom-image" height="auto" width="auto" />
   </div>
 </template>
 
@@ -30,11 +31,12 @@ export default {
 .zoom-image {
   width: 100%;
   height: 100%;
+  max-width: 800px;
   transition: transform .5s ease;
+  border: 4px solid #f9f7f2;
 }
 
 .zoom-container:hover .zoom-image {
   transform: scale(1.5);
-  /* Control zoom level here */
 }
 </style>

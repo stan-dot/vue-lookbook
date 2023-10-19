@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2> hello products</h2>
-    <pre v-if="products">
+    <h2>Discover Elegance: Our Curated Collection Awaits</h2>
+    <pre v-if="products" class="carousel-container">
       <Swiper :modules="[SwiperAutoplay, SwiperEffectCreative]" :slides-per-view="1" :loop="true" :effect="'creative'"
         :autoplay="{
           delay: 8000,
@@ -19,6 +19,7 @@
         >
         <SwiperSlide v-for="product in products" :key="product.id">
           <ProductCard  
+          class="carousel-image"
           :key="product.id" 
           :id="product.id" 
           :name="product.name" 
@@ -58,3 +59,15 @@ export default {
   },
 };
 </script>
+<style scoped>
+h2 {
+  color: rgb(50, 50, 50);
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+</style>

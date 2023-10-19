@@ -1,4 +1,3 @@
-
 <template>
   <form @submit.prevent="sendFeedback">
     <div>

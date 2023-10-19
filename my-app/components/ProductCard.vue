@@ -5,7 +5,8 @@
     <p class="product-description">{{ this.description }}</p>
     <p class="product-price">£{{ this.price }}</p>
     <div class="product-stars">{{ displayStars }}</div>
-    <button class="add-to-bag-btn">Add To Bag</button>
+    <nuxt-link :to="detailsLink" class="cta-button">See details</nuxt-link>
+    <!-- <button class="add-to-bag-btn">Add To Bag</button> -->
   </div>
 </template>
 
@@ -34,13 +35,17 @@ export default {
 
       return starsString;
     }
+  },
+  detailsLink() {
+    return `/items/${this.id}`;
   }
+
 };
 </script>
 
 <style scoped>
 .product-card {
-  background-color: rgb(50, 50, 50);
+  /* background-color: rgb(50, 50, 50); */
   opacity: 0.58;
   padding: 16px;
   display: flex;
@@ -48,28 +53,28 @@ export default {
   flex: start;
 }
 
-.product-image {
-  max-width: 100%;
-  border: 4px solid #f9f7f2;
+.productdescription {
+  font-style: italic;
+  margin: 10px 0;
 }
+
 
 .product-title {
   color: #1e1e1e;
   margin-top: 16px;
 }
 
-.product-description,
-.product-price,
 .product-stars {
   margin-top: 8px;
 }
 
-.add-to-bag-btn {
-  margin-top: 16px;
-  padding: 12px 24px;
-  background-color: #f9f7f2;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
+div>p {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  div>p {
+    position: relative;
+  }
 }
 </style>

@@ -1,22 +1,20 @@
-
-- [ ] high quality images
-- [ ] zoom in functionality
-- [x] carousel / slider
-
 information
 - name
 - description
 - price
 - sizes
-- materials used
+- materials used - DISCARDED
 
 inquire button
-- [ ] branding colors
-- [ ] responsive
-- [ ] subtle animations
-- [ ] smooth transitons
+
+- [x] high quality images
+- [x] zoom in functionality
+- [x] carousel / slider
+- [x] branding colors
 - [x] add stars
-- [ ] add responsive styles
+- [x] subtle animations
+- [ ] smooth transitons
+- [ ] responsive styles
 
 ## steps
 1. setup 
@@ -31,12 +29,12 @@ inquire button
    2. product detail
 4. client side routing to display the raw components - using swiper component
 5. styling
-   1. specious layout
-   2. high quality images 
-   3. refined typography - choose nice fonts - https://google-fonts.nuxtjs.org/getting-started/setup
+   1. specious layout - ok
+   2. high quality images  - ok
+   3. refined typography - choose nice fonts - https://google-fonts.nuxtjs.org/getting-started/setup -ok
    4. responsive and coherent
    5. SEO optimization https://nuxt.com/docs/guide/directory-structure/public
-   6. feedback form form standot33@gmail.com
+   6. feedback form form standot33@gmail.com 
 6. deploy
 7. documentation - automatic with storybook
 
