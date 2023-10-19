@@ -25,7 +25,7 @@ export default {
       try {
         const response = await fetch('/products.json');
         const data = await response.json();
-        const possiblyNew = data.find(p => p.id === parseInt(this.id));
+        const possiblyNew = data.find(p => p.id === this.id);
         if (possiblyNew) {
           this.product = possiblyNew;
         } else {
