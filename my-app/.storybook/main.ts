@@ -2,7 +2,7 @@
 const config = {
   stories: [
     "../components/**/*.mdx",
-    "../components/**/*.stories.(js|jsx|mjs|ts|tsx)",
+    "../components/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-links",
@@ -16,5 +16,7 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+    staticDirs: ['../public'],
+
 };
 export default config;
