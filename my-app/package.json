@@ -28,5 +28,8 @@
     "storybook-vue-addon": "^0.4.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "nuxt-swiper": "^1.2.2"
   }
 }

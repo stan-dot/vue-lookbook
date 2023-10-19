@@ -4,15 +4,45 @@
     "name": "Elegant Dress",
     "description": "A description of the elegant dress.",
     "price": 350,
-    "image": "path-to-your-image.jpg",
-    "slug": "elegant-dress"
+    "stars":1,
+    "image": "/images/yellow-dress.jpg",
+    "slug": "elegant-dress",
+    "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque varius sem, in bibendum lectus hendrerit nec. Pellentesque suscipit massa id felis cursus dapibus. Suspendisse eget porta diam. Fusce vel purus quis est ultrices sodales ut vitae ligula. Mauris scelerisque malesuada mi luctus vehicula. Sed fringilla id risus sit amet bibendum. Curabitur eleifend velit ac pulvinar sodales. Aliquam nec arcu varius, tristique diam vel, eleifend urna. Pellentesque ut erat felis. Nulla tempus turpis a arcu dictum, sed cursus purus facilisis.  "
   },
   {
     "id": 2,
     "name": "Luxury Suit",
     "description": "A description of the luxury suit.",
     "price": 750,
-    "image": "path-to-another-image.jpg",
-    "slug": "luxury-suit"
+    "image": "https://image.lexica.art/full_jpg/015fb3db-d837-4c46-a8bb-af79606e9b5a",
+    "slug": "luxury-suit",
+    "longDescription": "Quisque venenatis varius metus, nec semper augue tempor in. Morbi laoreet eros a eleifend mattis. Quisque suscipit sem mi, in accumsan eros venenatis vel. Sed ultricies rutrum erat, vel pulvinar nulla vulputate in. Sed odio nisl, hendrerit vitae consectetur et, porttitor ac metus. Nullam eget dolor tellus. Nam gravida ligula sed augue lacinia aliquet. Ut vulputate ornare malesuada.  "
+  },
+  {
+    "id": 4,
+    "name": "Some",
+    "description": "lorem short",
+    "price": 500,
+    "image": "/images/suit.jpg",
+    "slug": "suit",
+    "longDescription": "Suspendisse varius at arcu ultrices mollis. Integer aliquet tristique nisi et efficitur. Nunc ultricies consequat rutrum. Vestibulum sit amet molestie justo. Integer dictum mauris lectus, eget finibus lectus dignissim quis. Cras consequat lorem felis, vitae interdum mauris pretium quis. Morbi eget posuere tellus. Nullam sit amet nibh sapien. Aliquam tristique convallis turpis. Curabitur tempus elit quis tortor posuere interdum. In a fringilla orci. Integer ut aliquam nulla. Duis auctor, arcu id elementum volutpat, lectus neque malesuada velit, vel venenatis ligula ex vitae augue. Etiam nisi turpis, finibus ut elementum sit amet, mollis quis nulla."
+  },
+  {
+    "id": 5,
+    "name": "Some",
+    "description": "lorem short",
+    "price": 500,
+    "image": "/images/suit.jpg",
+    "slug": "suit",
+    "longDescription": "Vestibulum sagittis lorem orci, nec dapibus enim lobortis feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vel egestas enim, nec mollis est. Phasellus vulputate vulputate quam, sed pharetra neque lobortis vel. Donec porta quis lectus vel ullamcorper. Nunc hendrerit lorem risus, vel laoreet nulla semper posuere. Fusce lacinia ornare neque, venenatis posuere risus tincidunt in. Phasellus vel pharetra libero. Aliquam efficitur, eros rutrum tincidunt lacinia, sem justo mattis nulla, eget euismod neque est sit amet felis."
+  },
+  {
+    "id": 6,
+    "name": "Some",
+    "description": "lorem short",
+    "price": 500,
+    "image": "/images/suit.jpg",
+    "slug": "suit",
+    "longDescription": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacus lectus, condimentum nec justo porttitor, pharetra rhoncus quam. Etiam et cursus neque. Phasellus accumsan, dui vitae lacinia rutrum, magna ipsum tempor nulla, et pellentesque ligula est accumsan urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum suscipit justo ante. Nulla id libero vitae velit porta sagittis ac condimentum felis. Maecenas convallis turpis nec eros sodales efficitur. Sed feugiat libero id massa varius ullamcorper. Quisque aliquam magna a sagittis egestas. Quisque bibendum dolor sed egestas tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur posuere pharetra felis tempor vestibulum. Maecenas nunc felis, gravida sed iaculis sed, fermentum et ligula."
   }
 ]
