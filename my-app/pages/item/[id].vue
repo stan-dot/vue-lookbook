@@ -1,7 +1,7 @@
 <template>
   <div class="product-detail">
     <h1>{{ product.name }}</h1>
-    <NuxtImg :src="product.image" alt="Product Image" height="800" width="500" />
+    <img :src="product.image" alt="Product Image" height="800" width="500" />
     <p class=" short-description">{{ product.description }}</p>
     <p class="long-description">{{ product.longDescription }}</p>
     <p class="product-price">£{{ product.price }}</p>
@@ -25,7 +25,7 @@ export default {
       try {
         const response = await fetch('/products.json');
         const data = await response.json();
-        const possiblyNew = data.find(p => p.id === this.id);
+        const possiblyNew = data.find(p => p.id === parseInt(this.id));
         if (possiblyNew) {
           this.product = possiblyNew;
         } else {
