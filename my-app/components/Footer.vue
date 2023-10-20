@@ -5,6 +5,9 @@
         <NuxtLink to='https://stan.place'>Main portfolio</NuxtLink>
       </p>
       <p>
+        <NuxtLink to=" https://github.com/stan-dot/vue-lookbook"> Source code (GitHub)</NuxtLink>
+      </p>
+      <p>
         This project is a demo application built to showcase development skills and is not associated, affiliated, or
         endorsed by any brand. All images and product details are used for demonstrative purposes only.
       </p>
@@ -13,7 +16,7 @@
       <p>Privacy policy</p>
       <p>Copyright notice</p>
       <p>Provide Feedback</p>
-      <p>Images are from lexica.com</p>
+      <p>Images are from lexica.art</p>
       <p>The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and
         other contributors. The graphics are licensed under CC-BY 4.0. Favicon</p>
     </nav>
@@ -25,7 +28,7 @@
   .fits-mobile {
     padding: 0;
     width: 90vw;
-    margin:10px;
+    margin: 10px;
   }
 }
 
@@ -60,6 +63,7 @@ a {
   margin-left: 2px;
   color: rgb(249, 247, 242);
 }
+
 @media (max-width: 768px) {
   .footer {
     width: 100%;
@@ -68,5 +72,4 @@ a {
     font-size: small;
   }
 }
-
 </style>
