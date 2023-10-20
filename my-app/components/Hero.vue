@@ -30,7 +30,8 @@ export default {
 @media (max-width: 720px) {
   .fits-mobile {
     padding: 0;
-    width: 80vw;
+    width: 90vw;
+    margin:10px
   }
 
 }

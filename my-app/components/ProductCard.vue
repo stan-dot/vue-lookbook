@@ -48,6 +48,7 @@ export default {
   /* opacity: 0.58; */
   min-width: 80%;
   width: fit-content;
+  min-height: 60vh;
   background-color: rgb(249, 247, 242);
   opacity: 1 !important;
   padding: 16px 8px 4px 4px;
@@ -83,6 +84,28 @@ div>p {
 }
 
 .cta-button {
+  display: inline-block;
+  background-color: rgb(249, 247, 242);
+  /* Assuming white as the button's background color */
+  color: rgb(50, 50, 50);
+  /* Assuming black as the text color */
+  padding: 10px 20px;
+  /* Adjust as needed */
+  border: 2px solid rgb(50, 50, 50);
+  /* Assuming black border */
+  text-align: center;
   text-decoration: none;
+  border-radius: 5px;
+  /* Rounded corners, adjust as needed */
+  font-weight: bold;
+  transition: 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+.see-details-link:hover {
+  background-color: rgb(50, 50, 50);
+  /* Change to the desired hover background color, e.g., black */
+  color: rgb(249, 247, 242);
+  /* Change to the desired hover text color, e.g., white */
 }
 </style>

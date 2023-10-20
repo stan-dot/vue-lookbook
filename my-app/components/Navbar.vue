@@ -40,7 +40,8 @@ export default {
 @media (max-width: 720px) {
   .fits-mobile {
     padding: 0;
-    width: 80vw;
+    width: 90vw;
+    margin: 2wv;
   }
 
 }
@@ -83,4 +84,12 @@ nav {
     flex-direction: column;
   }
 }
-</style>
+
+@media only screen and (max-width: 768px) {
+
+  /* 768px is a common breakpoint for tablets. Adjust as needed */
+  img {
+    width: 50%;
+    /* scale down to half on mobile, adjust as necessary */
+  }
+}</style>

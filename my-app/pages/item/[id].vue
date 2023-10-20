@@ -1,7 +1,7 @@
 <template>
   <div class="product-detail">
     <h1>{{ product.name }}</h1>
-    <img :src="product.image" alt="Product Image" height="800" width="500" />
+    <img :src="product.image" alt="Product Image" />
     <p class=" short-description">{{ product.description }}</p>
     <p class="long-description">{{ product.longDescription }}</p>
     <p class="product-price">£{{ product.price }}</p>
@@ -80,5 +80,14 @@ export default {
   font-weight: bold;
   color: #e67e22;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* 768px is a common breakpoint for tablets. Adjust as needed */
+  img {
+    width: 70%;
+    /* scale down to half on mobile, adjust as necessary */
+  }
 }
 </style>

@@ -24,9 +24,9 @@
 @media (max-width: 720px) {
   .fits-mobile {
     padding: 0;
-    width: 80vw;
+    width: 90vw;
+    margin:10px;
   }
-
 }
 
 footer {
@@ -59,12 +59,13 @@ a {
   margin-left: 2px;
   color: rgb(249, 247, 242);
 }
-
 @media (max-width: 768px) {
   .footer {
     width: 100%;
+    padding: 4px;
     flex-direction: column;
     font-size: small;
   }
 }
+
 </style>
