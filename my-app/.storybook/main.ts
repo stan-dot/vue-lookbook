@@ -8,7 +8,8 @@ const config = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-       "storybook-vue-addon"
+    "storybook-vue-addon",
+       '@storyboook/addon-viewport'
 
   ],
   framework: {

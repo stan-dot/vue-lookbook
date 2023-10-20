@@ -33,6 +33,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  padding: 8px;
   max-width: 100vw;
   box-sizing: border-box;
   margin-bottom: 0;
@@ -49,8 +50,8 @@ footer {
 }
 
 .footer>p {
-  margin-right: 6px;
-  margin-left: 2px;
+  margin-right: 4px;
+  margin-left: 4px;
   color: rgb(249, 247, 242);
 }
 
